@@ -1,0 +1,4 @@
+Log file created at: 2018/11/19 20:07:09
+Running on machine: B000000094132g
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1119 20:07:09.650888 402900416 test_kv_app_2.cc:49] error: 0

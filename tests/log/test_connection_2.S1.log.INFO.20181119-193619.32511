@@ -1,0 +1,16 @@
+Log file created at: 2018/11/19 19:36:19
+Running on machine: B000000094132g
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1119 19:36:19.473178 156784064 van.cc:320] Bind to role=server, ip=172.24.187.29, port=59780, is_recovery=0
+I1119 19:36:19.475698 156784064 van.cc:334] start news sub thread::receiver_thread_, function::Van::Receiving
+I1119 19:36:19.477471 156784064 van.cc:414] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=server, ip=172.24.187.29, port=59780, is_recovery=0 } }
+I1119 19:36:19.481062 105390080 van.cc:439] 1 => 2147483647. Meta: request=0, timestamp=3, control={ cmd=ADD_NODE, node={ role=worker, id=9, ip=172.24.187.29, port=59779, is_recovery=0 role=server, id=8, ip=172.24.187.29, port=59780, is_recovery=0 role=worker, id=11, ip=172.24.187.29, port=59781, is_recovery=0 role=worker, id=13, ip=172.24.187.29, port=59782, is_recovery=0 role=server, id=10, ip=172.24.187.29, port=59783, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1119 19:36:19.481508 105390080 van.cc:261] S[8] is connected to others
+I1119 19:36:19.579694 156784064 van.cc:373] start news sub thread::heartbeat_thread_, function::Van::Heartbeat
+I1119 19:36:19.579922 156784064 van.cc:414] ? => 1. Meta: request=1, timestamp=1, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:36:19.581362 105390080 van.cc:439] 1 => 8. Meta: request=0, timestamp=9, control={ cmd=BARRIER, barrier_group=1768656 }
+I1119 19:36:19.581506 156784064 van.cc:414] ? => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:36:19.582590 105390080 van.cc:439] 1 => 8. Meta: request=0, timestamp=16, control={ cmd=BARRIER, barrier_group=1768656 }
+I1119 19:36:19.582794 156784064 zmq_van.h:50] S[8] is stopping
+I1119 19:36:19.583595 105390080 van.cc:439] 8 => 8. Meta: request=0, control={ cmd=TERMINATE }
+I1119 19:36:19.583668 105390080 van.cc:37] S[8] is stopped

@@ -1,0 +1,222 @@
+Log file created at: 2018/11/19 20:07:09
+Running on machine: B000000094132g
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1119 20:07:09.462260 420984256 van.cc:320] Bind to role=worker, ip=172.24.187.29, port=56920, is_recovery=0
+I1119 20:07:09.467272 420984256 van.cc:334] start news sub thread::receiver_thread_, function::Van::Receiving
+I1119 20:07:09.468152 420984256 van.cc:414] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.29, port=56920, is_recovery=0 } }
+I1119 20:07:09.474232 198635520 van.cc:439] 1 => 2147483647. Meta: request=0, timestamp=2, control={ cmd=ADD_NODE, node={ role=worker, id=9, ip=172.24.187.29, port=56916, is_recovery=0 role=server, id=8, ip=172.24.187.29, port=56917, is_recovery=0 role=server, id=10, ip=172.24.187.29, port=56918, is_recovery=0 role=worker, id=11, ip=172.24.187.29, port=56919, is_recovery=0 role=worker, id=13, ip=172.24.187.29, port=56920, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1119 20:07:09.474997 198635520 van.cc:261] W[13] is connected to others
+I1119 20:07:09.573977 420984256 van.cc:373] start news sub thread::heartbeat_thread_, function::Van::Heartbeat
+I1119 20:07:09.574132 420984256 van.cc:414] ? => 1. Meta: request=1, timestamp=1, control={ cmd=BARRIER, barrier_group=7 }
+I1119 20:07:09.574589 198635520 van.cc:439] 1 => 13. Meta: request=0, timestamp=8, control={ cmd=BARRIER, barrier_group=269327568 }
+I1119 20:07:09.574779 420984256 customer.cc:18] start news sub thread::recv_thread_, function::Customer::Receiving
+I1119 20:07:09.576409 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=0, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.576779 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=0, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.576978 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=1, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.577024 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=1, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.577126 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=2, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.577267 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=2, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.577544 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=3, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.577602 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=3, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.577762 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=4, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.577826 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=4, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.578060 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=5, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.578140 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=5, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.578440 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=6, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.578562 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=6, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.578812 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=7, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.578855 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=7, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.579257 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=8, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.579361 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=8, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.579591 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=9, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.579668 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=9, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.579793 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=10, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.579857 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=10, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.579932 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=11, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.580006 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=11, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.584460 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=0, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.584731 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=1, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.585047 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=0, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.586488 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=2, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.586558 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=1, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.587039 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=3, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.587445 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=2, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.587930 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=12, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.587981 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=12, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.588376 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=4, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.588572 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=3, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.588614 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=5, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.588968 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=13, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.589007 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=13, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.589324 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=6, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.589426 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=4, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.589946 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=5, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.589989 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=7, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.590067 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=14, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.590121 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=14, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.590651 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=15, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.590670 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=6, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.590698 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=15, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.590940 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=8, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.591644 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=7, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.591683 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=9, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.591722 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=16, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.591769 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=16, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.592082 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=17, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.592120 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=17, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.592538 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=10, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.592578 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=8, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.592658 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=11, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.592977 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=9, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.593132 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=18, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.593225 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=18, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.593379 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=19, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.593412 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=19, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.593843 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=10, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.594507 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=20, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.594563 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=20, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.595031 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=11, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.595657 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=21, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.595731 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=21, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.597965 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=12, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.598742 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=13, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.599721 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=14, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.599782 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=15, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.599836 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=12, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.599866 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=13, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.600319 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=22, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.600409 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=22, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.600520 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=23, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.600580 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=23, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.600906 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=16, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.601397 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=17, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.601464 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=14, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.601502 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=15, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.602306 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=24, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.602365 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=24, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.602422 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=18, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.602494 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=25, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.602535 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=25, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.606139 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=19, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.606197 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=16, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.606235 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=20, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.606267 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=21, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.608355 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=26, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.608428 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=26, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.608886 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=17, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.608968 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=18, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.609009 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=19, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.609038 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=20, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.609066 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=21, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.614020 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=22, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.614166 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=23, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.614881 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=27, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.614979 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=27, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.615036 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=24, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.615046 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=28, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.615092 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=22, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.616297 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=28, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.617612 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=25, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.618247 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=29, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.618999 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=23, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.619549 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=29, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.619931 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=26, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.620640 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=30, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.620949 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=24, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.621521 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=30, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.622776 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=27, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.623502 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=31, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.623852 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=25, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.624336 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=31, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.625262 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=28, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.626516 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=32, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.626942 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=26, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.627233 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=32, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.627504 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=29, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.628094 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=33, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.628224 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=27, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.628592 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=33, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.629256 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=30, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.629770 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=34, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.629935 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=28, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.630089 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=34, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.630250 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=29, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.630769 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=35, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.631510 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=30, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.631899 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=35, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.632091 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=31, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.632786 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=36, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.633811 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=36, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.633890 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=37, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.633927 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=37, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.633986 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=38, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.634021 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=38, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.634070 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=31, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.634172 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=39, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.634244 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=39, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.634306 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=40, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.634385 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=40, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.634637 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=41, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.634708 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=41, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.635488 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=32, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.635576 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=33, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.635633 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=34, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.636389 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=35, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.637639 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=36, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.637892 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=32, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.638077 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=42, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.638128 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=42, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.638664 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=37, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.638767 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=38, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.639482 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=39, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.639950 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=40, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.639997 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=41, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.640053 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=33, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.640166 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=43, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.640228 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=43, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.641294 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=34, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.641345 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=42, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.641870 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=44, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.641921 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=44, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.642310 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=43, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.643707 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=35, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.643757 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=44, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.644012 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=36, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.644060 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=45, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.644110 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=45, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.644358 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=46, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.644425 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=46, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.645221 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=37, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.645772 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=38, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.645850 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=39, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.645869 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=47, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.645921 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=47, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.646276 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=45, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.646356 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=48, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.646392 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=48, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.646457 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=49, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.646488 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=49, app_id=0, customer_id=0, simple_app=0, push=1, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+I1119 20:07:09.646991 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=40, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.647029 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=46, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.647056 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=41, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.647241 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=42, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.647727 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=47, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.648103 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=48, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.648418 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=43, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.648465 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=49, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.648946 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=44, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.650167 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=45, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.650357 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=46, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.650873 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=47, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.651088 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=48, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.651320 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=49, app_id=0, customer_id=0, simple_app=0, push=1, head=0
+I1119 20:07:09.651443 420984256 van.cc:414] ? => 8. Meta: request=1, timestamp=50, app_id=0, customer_id=0, simple_app=0, push=0, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=0
+I1119 20:07:09.651535 420984256 van.cc:414] ? => 10. Meta: request=1, timestamp=50, app_id=0, customer_id=0, simple_app=0, push=0, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=0
+I1119 20:07:09.653311 198635520 van.cc:439] 8 => 13. Meta: request=0, timestamp=50, app_id=0, customer_id=0, simple_app=0, push=0, head=0, data_type={ UINT64 FLOAT } Body: data_size=40008 data_size=20004
+I1119 20:07:09.653534 198635520 van.cc:439] 10 => 13. Meta: request=0, timestamp=50, app_id=0, customer_id=0, simple_app=0, push=0, head=0, data_type={ UINT64 FLOAT } Body: data_size=39992 data_size=19996
+E1119 20:07:09.653741 420984256 test_kv_app_2.cc:49] error: 0
+I1119 20:07:09.655141 420984256 van.cc:414] ? => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1119 20:07:09.655961 198635520 van.cc:439] 1 => 13. Meta: request=0, timestamp=15, control={ cmd=BARRIER, barrier_group=269327568 }
+I1119 20:07:09.656051 420984256 zmq_van.h:50] W[13] is stopping
+I1119 20:07:09.656379 198635520 van.cc:439] 13 => 13. Meta: request=0, control={ cmd=TERMINATE }
+I1119 20:07:09.656414 198635520 van.cc:37] W[13] is stopped

@@ -1,0 +1,21 @@
+Log file created at: 2018/11/19 19:37:56
+Running on machine: B000000094132g
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1119 19:37:56.368707 513775040 van.cc:320] Bind to role=worker, ip=172.24.187.29, port=63055, is_recovery=0
+I1119 19:37:56.369767 513775040 van.cc:334] start news sub thread::receiver_thread_, function::Van::Receiving
+I1119 19:37:56.370031 513775040 van.cc:414] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.29, port=63055, is_recovery=0 } }
+I1119 19:37:56.374449 243863552 van.cc:439] 1 => 2147483647. Meta: request=0, timestamp=2, control={ cmd=ADD_NODE, node={ role=server, id=8, ip=172.24.187.29, port=63051, is_recovery=0 role=worker, id=9, ip=172.24.187.29, port=63052, is_recovery=0 role=server, id=10, ip=172.24.187.29, port=63053, is_recovery=0 role=worker, id=11, ip=172.24.187.29, port=63054, is_recovery=0 role=worker, id=13, ip=172.24.187.29, port=63055, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1119 19:37:56.375473 243863552 van.cc:261] W[13] is connected to others
+I1119 19:37:56.474200 513775040 van.cc:373] start news sub thread::heartbeat_thread_, function::Van::Heartbeat
+I1119 19:37:56.474567 513775040 van.cc:414] ? => 1. Meta: request=1, timestamp=1, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.475878 243863552 van.cc:439] 1 => 13. Meta: request=0, timestamp=8, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.476258 513775040 customer.cc:18] start news sub thread::recv_thread_, function::Customer::Receiving
+I1119 19:37:56.476354 513775040 van.cc:414] ? => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.477315 243863552 van.cc:439] 1 => 13. Meta: request=1, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.477452 244936704 van.cc:414] ? => 1. Meta: request=0, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478377 243863552 van.cc:439] 1 => 13. Meta: request=1, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.478536 244936704 van.cc:414] ? => 1. Meta: request=0, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.479310 243863552 van.cc:439] 1 => 13. Meta: request=0, timestamp=15, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.479413 513775040 zmq_van.h:50] W[13] is stopping
+I1119 19:37:56.479774 243863552 van.cc:439] 13 => 13. Meta: request=0, control={ cmd=TERMINATE }
+I1119 19:37:56.479815 243863552 van.cc:37] W[13] is stopped

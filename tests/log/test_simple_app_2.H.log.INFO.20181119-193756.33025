@@ -1,0 +1,93 @@
+Log file created at: 2018/11/19 19:37:56
+Running on machine: B000000094132g
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1119 19:37:56.355741 470488512 van.cc:320] Bind to role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0
+I1119 19:37:56.357496 470488512 van.cc:334] start news sub thread::receiver_thread_, function::Van::Receiving
+I1119 19:37:56.368960 145653760 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=server, ip=172.24.187.29, port=63051, is_recovery=0 } }
+I1119 19:37:56.369068 145653760 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.29, port=63052, is_recovery=0 } }
+I1119 19:37:56.369215 145653760 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=server, ip=172.24.187.29, port=63053, is_recovery=0 } }
+I1119 19:37:56.369576 145653760 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.29, port=63054, is_recovery=0 } }
+I1119 19:37:56.370513 145653760 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.29, port=63055, is_recovery=0 } }
+I1119 19:37:56.370615 145653760 van.cc:62] assign rank=8 to node role=server, ip=172.24.187.29, port=63051, is_recovery=0
+I1119 19:37:56.370752 145653760 van.cc:62] assign rank=9 to node role=worker, ip=172.24.187.29, port=63052, is_recovery=0
+I1119 19:37:56.370858 145653760 van.cc:62] assign rank=10 to node role=server, ip=172.24.187.29, port=63053, is_recovery=0
+I1119 19:37:56.371073 145653760 van.cc:62] assign rank=11 to node role=worker, ip=172.24.187.29, port=63054, is_recovery=0
+I1119 19:37:56.371263 145653760 van.cc:62] assign rank=13 to node role=worker, ip=172.24.187.29, port=63055, is_recovery=0
+I1119 19:37:56.371629 145653760 van.cc:414] ? => 9. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=server, id=8, ip=172.24.187.29, port=63051, is_recovery=0 role=worker, id=9, ip=172.24.187.29, port=63052, is_recovery=0 role=server, id=10, ip=172.24.187.29, port=63053, is_recovery=0 role=worker, id=11, ip=172.24.187.29, port=63054, is_recovery=0 role=worker, id=13, ip=172.24.187.29, port=63055, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1119 19:37:56.371734 145653760 van.cc:414] ? => 11. Meta: request=0, timestamp=1, control={ cmd=ADD_NODE, node={ role=server, id=8, ip=172.24.187.29, port=63051, is_recovery=0 role=worker, id=9, ip=172.24.187.29, port=63052, is_recovery=0 role=server, id=10, ip=172.24.187.29, port=63053, is_recovery=0 role=worker, id=11, ip=172.24.187.29, port=63054, is_recovery=0 role=worker, id=13, ip=172.24.187.29, port=63055, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1119 19:37:56.371867 145653760 van.cc:414] ? => 13. Meta: request=0, timestamp=2, control={ cmd=ADD_NODE, node={ role=server, id=8, ip=172.24.187.29, port=63051, is_recovery=0 role=worker, id=9, ip=172.24.187.29, port=63052, is_recovery=0 role=server, id=10, ip=172.24.187.29, port=63053, is_recovery=0 role=worker, id=11, ip=172.24.187.29, port=63054, is_recovery=0 role=worker, id=13, ip=172.24.187.29, port=63055, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1119 19:37:56.372015 145653760 van.cc:414] ? => 8. Meta: request=0, timestamp=3, control={ cmd=ADD_NODE, node={ role=server, id=8, ip=172.24.187.29, port=63051, is_recovery=0 role=worker, id=9, ip=172.24.187.29, port=63052, is_recovery=0 role=server, id=10, ip=172.24.187.29, port=63053, is_recovery=0 role=worker, id=11, ip=172.24.187.29, port=63054, is_recovery=0 role=worker, id=13, ip=172.24.187.29, port=63055, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1119 19:37:56.372148 145653760 van.cc:414] ? => 10. Meta: request=0, timestamp=4, control={ cmd=ADD_NODE, node={ role=server, id=8, ip=172.24.187.29, port=63051, is_recovery=0 role=worker, id=9, ip=172.24.187.29, port=63052, is_recovery=0 role=server, id=10, ip=172.24.187.29, port=63053, is_recovery=0 role=worker, id=11, ip=172.24.187.29, port=63054, is_recovery=0 role=worker, id=13, ip=172.24.187.29, port=63055, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1119 19:37:56.372308 145653760 van.cc:94] the scheduler is connected to 3 workers and 2 servers
+I1119 19:37:56.458940 470488512 van.cc:414] ? => 1. Meta: request=1, timestamp=5, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.459141 145653760 van.cc:439] 1 => 1. Meta: request=1, timestamp=5, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.459215 145653760 van.cc:196] Barrier count for 7 : 1
+I1119 19:37:56.459537 145653760 van.cc:439] 8 => 1. Meta: request=1, timestamp=1, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.459594 145653760 van.cc:196] Barrier count for 7 : 2
+I1119 19:37:56.464891 145653760 van.cc:439] 9 => 1. Meta: request=1, timestamp=1, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.464948 145653760 van.cc:196] Barrier count for 7 : 3
+I1119 19:37:56.471391 145653760 van.cc:439] 10 => 1. Meta: request=1, timestamp=1, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.471444 145653760 van.cc:196] Barrier count for 7 : 4
+I1119 19:37:56.471626 145653760 van.cc:439] 11 => 1. Meta: request=1, timestamp=1, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.471669 145653760 van.cc:196] Barrier count for 7 : 5
+I1119 19:37:56.475225 145653760 van.cc:439] 13 => 1. Meta: request=1, timestamp=1, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.475396 145653760 van.cc:196] Barrier count for 7 : 6
+I1119 19:37:56.475471 145653760 van.cc:414] ? => 9. Meta: request=0, timestamp=6, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.475574 145653760 van.cc:414] ? => 11. Meta: request=0, timestamp=7, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.475683 145653760 van.cc:414] ? => 13. Meta: request=0, timestamp=8, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.475765 145653760 van.cc:414] ? => 8. Meta: request=0, timestamp=9, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.475930 145653760 van.cc:414] ? => 10. Meta: request=0, timestamp=10, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.476006 145653760 van.cc:414] ? => 1. Meta: request=0, timestamp=11, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.476511 145653760 van.cc:439] 1 => 1. Meta: request=0, timestamp=11, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.476850 470488512 customer.cc:18] start news sub thread::recv_thread_, function::Customer::Receiving
+I1119 19:37:56.476913 470488512 van.cc:414] ? => 9. Meta: request=1, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.476941 145653760 van.cc:439] 9 => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.476969 470488512 van.cc:414] ? => 11. Meta: request=1, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.477016 145653760 van.cc:196] Barrier count for 7 : 1
+I1119 19:37:56.477102 470488512 van.cc:414] ? => 13. Meta: request=1, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.477216 145653760 van.cc:439] 11 => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.477295 470488512 van.cc:414] ? => 8. Meta: request=1, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.477366 145653760 van.cc:196] Barrier count for 7 : 2
+I1119 19:37:56.477424 470488512 van.cc:414] ? => 10. Meta: request=1, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.477540 145653760 van.cc:439] 13 => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.477684 470488512 van.cc:414] ? => 1. Meta: request=1, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.477774 145653760 van.cc:196] Barrier count for 7 : 3
+I1119 19:37:56.477838 470488512 van.cc:414] ? => 9. Meta: request=1, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.477865 145653760 van.cc:439] 9 => 1. Meta: request=0, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.477954 470488512 van.cc:414] ? => 11. Meta: request=1, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.478024 145653760 van.cc:439] 11 => 1. Meta: request=0, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478034 470488512 van.cc:414] ? => 13. Meta: request=1, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.478066 145653760 van.cc:439] 13 => 1. Meta: request=0, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478114 470488512 van.cc:414] ? => 8. Meta: request=1, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.478154 470488512 van.cc:414] ? => 10. Meta: request=1, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.478201 470488512 van.cc:414] ? => 1. Meta: request=1, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.478260 145653760 van.cc:439] 8 => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.478296 145653760 van.cc:196] Barrier count for 7 : 4
+I1119 19:37:56.478322 145653760 van.cc:439] 10 => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.478350 145653760 van.cc:196] Barrier count for 7 : 5
+I1119 19:37:56.478377 145653760 van.cc:439] 1 => 1. Meta: request=1, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.478417 145653760 van.cc:439] 8 => 1. Meta: request=0, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478449 145653760 van.cc:439] 10 => 1. Meta: request=0, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478482 145653760 van.cc:439] 1 => 1. Meta: request=1, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1, body=test
+I1119 19:37:56.478510 146190336 van.cc:414] ? => 1. Meta: request=0, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478535 145653760 van.cc:439] 9 => 1. Meta: request=0, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478565 146190336 van.cc:414] ? => 1. Meta: request=0, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478751 145653760 van.cc:439] 1 => 1. Meta: request=0, timestamp=0, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478781 145653760 van.cc:439] 13 => 1. Meta: request=0, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478817 145653760 van.cc:439] 8 => 1. Meta: request=0, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478844 145653760 van.cc:439] 1 => 1. Meta: request=0, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478893 145653760 van.cc:439] 11 => 1. Meta: request=0, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478919 145653760 van.cc:439] 10 => 1. Meta: request=0, timestamp=1, app_id=0, customer_id=0, simple_app=1, push=0, head=1
+I1119 19:37:56.478963 470488512 van.cc:414] ? => 1. Meta: request=1, timestamp=12, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.479086 145653760 van.cc:439] 1 => 1. Meta: request=1, timestamp=12, control={ cmd=BARRIER, barrier_group=7 }
+I1119 19:37:56.479120 145653760 van.cc:196] Barrier count for 7 : 6
+I1119 19:37:56.479151 145653760 van.cc:414] ? => 9. Meta: request=0, timestamp=13, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.479182 145653760 van.cc:414] ? => 11. Meta: request=0, timestamp=14, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.479221 145653760 van.cc:414] ? => 13. Meta: request=0, timestamp=15, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.479331 145653760 van.cc:414] ? => 8. Meta: request=0, timestamp=16, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.479421 145653760 van.cc:414] ? => 10. Meta: request=0, timestamp=17, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.479459 145653760 van.cc:414] ? => 1. Meta: request=0, timestamp=18, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.479642 145653760 van.cc:439] 1 => 1. Meta: request=0, timestamp=18, control={ cmd=BARRIER, barrier_group=145652944 }
+I1119 19:37:56.479718 470488512 zmq_van.h:50] H[1] is stopping
+I1119 19:37:56.479985 145653760 van.cc:439] 1 => 1. Meta: request=0, control={ cmd=TERMINATE }
+I1119 19:37:56.480020 145653760 van.cc:37] H[1] is stopped

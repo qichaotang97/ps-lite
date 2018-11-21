@@ -1,0 +1,14 @@
+#   LZ4 - Fast LZ compression algorithm
+#   Copyright (C) 2011-2014, Yann Collet.
+#   BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+
+prefix=/Users/baidu/Documents/parameter_server_11_4/ps-lite/deps
+libdir=/Users/baidu/Documents/parameter_server_11_4/ps-lite/deps/lib
+includedir=/Users/baidu/Documents/parameter_server_11_4/ps-lite/deps/include
+
+Name: lz4
+Description: fast lossless compression algorithm library
+URL: http://code.google.com/p/lz4/
+Version: 129
+Libs: -L/Users/baidu/Documents/parameter_server_11_4/ps-lite/deps/lib -llz4
+Cflags: -I/Users/baidu/Documents/parameter_server_11_4/ps-lite/deps/include

@@ -1,0 +1,4 @@
+Log file created at: 2018/11/17 16:55:51
+Running on machine: B000000094132g
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1117 16:55:51.363523 461931968 test_glog_2.cc:18] hello world

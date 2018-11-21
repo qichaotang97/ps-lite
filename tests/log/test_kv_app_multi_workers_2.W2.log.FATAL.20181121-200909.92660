@@ -1,0 +1,5 @@
+Log file created at: 2018/11/21 20:09:09
+Running on machine: B000000094132g
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F1121 20:09:09.191133 16789504 test_kv_app_multi_workers_2.cc:56] Check failed: res / repeat < 1e-5 (2.33631e+06 vs. 1e-05) 
+F1121 20:09:09.193091 16252928 test_kv_app_multi_workers_2.cc:56] Check failed: res / repeat < 1e-5 (2.13777e+06 vs. 1e-05) 

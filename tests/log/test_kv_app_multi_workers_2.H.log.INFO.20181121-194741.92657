@@ -1,0 +1,54 @@
+Log file created at: 2018/11/21 19:47:41
+Running on machine: B000000094132g
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1121 19:47:41.827581 190019008 van.cc:320] Bind to role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0
+I1121 19:47:41.829217 190019008 van.cc:334] start news sub thread::receiver_thread_, function::Van::Receiving
+I1121 19:47:41.832195 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.26, port=56190, is_recovery=0 } }
+I1121 19:47:41.832262 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=1, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.26, port=56190, is_recovery=0 } }
+I1121 19:47:41.832324 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=server, ip=172.24.187.26, port=56192, is_recovery=0 } }
+I1121 19:47:41.832367 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=server, ip=172.24.187.26, port=56191, is_recovery=0 } }
+I1121 20:09:08.864688 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.26, port=56836, is_recovery=0 } }
+I1121 20:09:08.865510 245141504 van.cc:62] assign rank=9 to node role=worker, ip=172.24.187.26, port=56190, is_recovery=0
+I1121 20:09:08.865739 245141504 van.cc:62] assign rank=8 to node role=server, ip=172.24.187.26, port=56191, is_recovery=0
+I1121 20:09:08.865906 245141504 van.cc:62] assign rank=10 to node role=server, ip=172.24.187.26, port=56192, is_recovery=0
+I1121 20:09:08.866474 245141504 van.cc:62] assign rank=13 to node role=worker, ip=172.24.187.26, port=56836, is_recovery=0
+I1121 20:09:08.867344 245141504 van.cc:414] ? => 9. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=worker, id=9, ip=172.24.187.26, port=56190, is_recovery=0 role=worker, id=9, ip=172.24.187.26, port=56190, is_recovery=0 role=server, id=8, ip=172.24.187.26, port=56191, is_recovery=0 role=server, id=10, ip=172.24.187.26, port=56192, is_recovery=0 role=worker, id=13, ip=172.24.187.26, port=56836, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1121 20:09:08.867564 245141504 van.cc:414] ? => 13. Meta: request=0, timestamp=1, control={ cmd=ADD_NODE, node={ role=worker, id=9, ip=172.24.187.26, port=56190, is_recovery=0 role=worker, id=9, ip=172.24.187.26, port=56190, is_recovery=0 role=server, id=8, ip=172.24.187.26, port=56191, is_recovery=0 role=server, id=10, ip=172.24.187.26, port=56192, is_recovery=0 role=worker, id=13, ip=172.24.187.26, port=56836, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1121 20:09:08.867674 245141504 van.cc:414] ? => 8. Meta: request=0, timestamp=2, control={ cmd=ADD_NODE, node={ role=worker, id=9, ip=172.24.187.26, port=56190, is_recovery=0 role=worker, id=9, ip=172.24.187.26, port=56190, is_recovery=0 role=server, id=8, ip=172.24.187.26, port=56191, is_recovery=0 role=server, id=10, ip=172.24.187.26, port=56192, is_recovery=0 role=worker, id=13, ip=172.24.187.26, port=56836, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1121 20:09:08.867766 245141504 van.cc:414] ? => 10. Meta: request=0, timestamp=3, control={ cmd=ADD_NODE, node={ role=worker, id=9, ip=172.24.187.26, port=56190, is_recovery=0 role=worker, id=9, ip=172.24.187.26, port=56190, is_recovery=0 role=server, id=8, ip=172.24.187.26, port=56191, is_recovery=0 role=server, id=10, ip=172.24.187.26, port=56192, is_recovery=0 role=worker, id=13, ip=172.24.187.26, port=56836, is_recovery=0 role=scheduler, id=1, ip=127.0.0.1, port=8000, is_recovery=0 } }
+I1121 20:09:08.867820 245141504 van.cc:94] the scheduler is connected to 3 workers and 2 servers
+I1121 20:09:08.867859 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=server, ip=172.24.187.26, port=56837, is_recovery=0 } }
+I1121 20:09:08.867904 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=1, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.26, port=56836, is_recovery=0 } }
+I1121 20:09:08.867986 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=server, ip=172.24.187.26, port=56838, is_recovery=0 } }
+I1121 20:09:08.909138 190019008 van.cc:414] ? => 1. Meta: request=1, timestamp=4, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.915084 245141504 van.cc:439] 1 => 1. Meta: request=1, timestamp=4, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.915128 245141504 van.cc:196] Barrier count for 7 : 1
+I1121 20:09:08.915688 245141504 van.cc:439] 10 => 1. Meta: request=1, timestamp=1, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.915753 245141504 van.cc:196] Barrier count for 7 : 2
+I1121 20:09:08.916003 245141504 van.cc:439] 9 => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.916056 245141504 van.cc:196] Barrier count for 7 : 3
+I1121 20:09:08.916085 245141504 van.cc:439] 8 => 1. Meta: request=1, timestamp=1, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.916110 245141504 van.cc:196] Barrier count for 7 : 4
+I1121 20:09:08.916132 245141504 van.cc:439] 9 => 1. Meta: request=1, timestamp=3, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.916206 245141504 van.cc:196] Barrier count for 7 : 5
+I1121 20:09:08.969795 245141504 van.cc:439] 13 => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.969887 245141504 van.cc:196] Barrier count for 7 : 6
+I1121 20:09:08.969944 245141504 van.cc:414] ? => 9. Meta: request=0, timestamp=5, control={ cmd=BARRIER, barrier_group=245140688 }
+I1121 20:09:08.970094 245141504 van.cc:414] ? => 13. Meta: request=0, timestamp=6, control={ cmd=BARRIER, barrier_group=245140688 }
+I1121 20:09:08.970180 245141504 van.cc:414] ? => 8. Meta: request=0, timestamp=7, control={ cmd=BARRIER, barrier_group=245140688 }
+I1121 20:09:08.970224 245141504 van.cc:414] ? => 10. Meta: request=0, timestamp=8, control={ cmd=BARRIER, barrier_group=245140688 }
+I1121 20:09:08.970309 245141504 van.cc:414] ? => 1. Meta: request=0, timestamp=9, control={ cmd=BARRIER, barrier_group=245140688 }
+I1121 20:09:08.970342 245141504 van.cc:439] 13 => 1. Meta: request=1, timestamp=3, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.970368 245141504 van.cc:196] Barrier count for 7 : 1
+I1121 20:09:08.970438 245141504 van.cc:439] 1 => 1. Meta: request=0, timestamp=9, control={ cmd=BARRIER, barrier_group=245140688 }
+I1121 20:09:08.970510 190019008 van.cc:414] ? => 1. Meta: request=1, timestamp=10, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.970724 245141504 van.cc:439] 1 => 1. Meta: request=1, timestamp=10, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.970757 245141504 van.cc:196] Barrier count for 7 : 2
+I1121 20:09:08.971910 245141504 van.cc:439] 8 => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.972007 245141504 van.cc:196] Barrier count for 7 : 3
+I1121 20:09:08.972050 245141504 van.cc:439] 10 => 1. Meta: request=1, timestamp=2, control={ cmd=BARRIER, barrier_group=7 }
+I1121 20:09:08.972076 245141504 van.cc:196] Barrier count for 7 : 4
+I1121 20:10:06.136601 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=server, ip=172.24.187.26, port=59143, is_recovery=0 } }
+I1121 20:10:06.140929 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=server, ip=172.24.187.26, port=59144, is_recovery=0 } }
+I1121 20:10:06.142693 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=0, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.26, port=59145, is_recovery=0 } }
+I1121 20:10:06.142771 245141504 van.cc:439] ? => 1. Meta: request=0, timestamp=1, control={ cmd=ADD_NODE, node={ role=worker, ip=172.24.187.26, port=59145, is_recovery=0 } }
